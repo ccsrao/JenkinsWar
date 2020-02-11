@@ -31,6 +31,7 @@ public class DesktopGame {
 			}
 			GameSummary gs = new GameSummary(input, "rock", result);
 			history.add(gs);
+			//test
 
 			JOptionPane.showMessageDialog(null, result);
 			System.out.println(score);
