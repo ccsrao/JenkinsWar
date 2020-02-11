@@ -13,6 +13,7 @@ public class GameService {
 			result = "win";
 		}
 		if (clientGesture.equals("rock")) {
+			//test
 			result = "tie";
 		}
 		GameSummary gameSummary = new GameSummary(clientGesture, "rock", result);
