@@ -10,10 +10,10 @@ public class GameService {
 			result = "lose";
 		}
 		if (clientGesture.equals("paper")) {
+			//test
 			result = "win";
 		}
 		if (clientGesture.equals("rock")) {
-			//test
 			result = "tie";
 		}
 		GameSummary gameSummary = new GameSummary(clientGesture, "rock", result);
